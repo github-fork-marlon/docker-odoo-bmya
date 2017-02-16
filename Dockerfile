@@ -1,6 +1,6 @@
-FROM nelsonramirezs/odoo9:latest
-MAINTAINER Nelson Ramirez <info@konos.cl>
-# based on https://github.com/bmya/docker-odoo-adhoc
+FROM falconsoft3d/docker:t1
+MAINTAINER Marlon <mfalcon@falconsolutions.cl>
+# based on https://github.com/nelsonramirezs/
 
 USER root
 
