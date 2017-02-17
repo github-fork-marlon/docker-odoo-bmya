@@ -1,4 +1,4 @@
-# Cómo partir con Odoo en un servidor limpio en 8 pasos.
+# Cómo partir con Odoo 9.0  con facturacion electrónica en un servidor limpio en 8 pasos.
 
 ## Prerequisitos:
 Según nuestras últimas pruebas es conveniente la preexistencia de un usuario "odoo" en el sistema donde se realiza la instalación.
@@ -48,5 +48,5 @@ ALTER USER odoo WITH SUPERUSER;
 docker run -d --restart="always" --name odoo \
 -v /opt/odoo/extra-addons:/mnt/extra-addons \
 -p 127.0.0.1:8069:8069 \
---link postgres:db -t bmya/odoo-bmya:latest
+--link postgres:db -t falconsoft3d/docker-odoo-mfh:t1
 
